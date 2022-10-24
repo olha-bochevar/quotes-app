@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type='text/css'>
+    <title>Quotes App</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto p-5">
+        <h1 class="text-center my-4">Quotes</h1>
+        <form class="change-category my-3 text-center">
+            <label for="category">What category of quotes are you looking for?</label>
+            <input type="text" name="category" class="form-control p-4 category-input" placeholder="Exm. happiness">
+        </form>
+        <div class="quote-container mx-auto d-none">
+        <div class="card quote-card rounded shadow-lg my-5">
+            <div class="card-header category-name-result">
+              Quote
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0 blockquote-body">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
